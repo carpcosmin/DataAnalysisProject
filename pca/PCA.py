@@ -31,7 +31,7 @@ class PCA:
     def getCov(self):
         return self.Cov
 
-    def getAlpha(self):
+    def getEigenValues(self):
         return self.alpha
 
     def getFactorLoadings(self):
